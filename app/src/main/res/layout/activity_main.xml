@@ -35,7 +35,7 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="180dp"
-            app:srcCompat="@drawable/image"
+            app:srcCompat="@drawable/img"
             android:layout_marginBottom="40dp"
             tools:layout_editor_absoluteX="100dp"
             tools:layout_editor_absoluteY="100dp" />
@@ -46,22 +46,10 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tvUmur"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Umur: 17 tahun" />
-
-            <TextView
                 android:id="@+id/tvNama"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Nama: Andika Andromeda" />
-
-            <TextView
-                android:id="@+id/tvHobi"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hobi: Mendengarkan musik" />
 
             <TextView
                 android:id="@+id/tvKelas"
@@ -70,16 +58,34 @@
                 android:text="Kelas: XII TJKT 1" />
 
             <TextView
+                android:id="@+id/tvKelas2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sekolah: SMK Tunas Harapan Pati" />
+
+            <TextView
                 android:id="@+id/tvAlamat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Alamat: Ds. Kauman, Kec. Juwana Kab. Pati" />
 
             <TextView
+                android:id="@+id/tvHobi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hobi: Mendengarkan musik" />
+
+            <TextView
                 android:id="@+id/tvTmptlahir"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Tanggal lahir: 10 September 2008" />
+
+            <TextView
+                android:id="@+id/tvUmur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Umur: 17 tahun" />
         </LinearLayout>
 
         <LinearLayout

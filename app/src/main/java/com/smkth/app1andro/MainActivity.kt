@@ -18,13 +18,13 @@ class MainActivity : AppCompatActivity() {
 
         // Tombol Instagran
         binding.btnInstagram.setOnClickListener {
-            val instagramIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://instagram.com/"))
+            val instagramIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://instagram.com/andromeda.extrn"))
             startActivity(instagramIntent)
         }
 
         // Tombol Whatasapp
         binding.btnWhatsapp.setOnClickListener {
-            val phoneNumber = "0828"
+            val phoneNumber = "18002428478"
             val whatsappIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://wa.me/$phoneNumber"))
             startActivity(whatsappIntent)
         }
